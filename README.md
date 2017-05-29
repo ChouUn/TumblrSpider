@@ -37,3 +37,11 @@
 ### Windows
 
 `sqlite3.exe data.db`
+
+## TODO LIST
+
+- [x] 爬取 photo 和 video 的 url
+- [x] 下载已爬取的 url
+- [ ] 剔除重复 post（或追踪到原 post）
+- [ ] 统计欢迎度（thanks to [watsy0007](https://github.com/watsy0007)）
+- [ ] 搞个 ORM 框架，解决下数据库锁的问题
